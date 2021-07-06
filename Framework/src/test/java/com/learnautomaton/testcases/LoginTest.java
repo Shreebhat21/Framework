@@ -19,6 +19,7 @@ public class LoginTest extends BaseClass {
 	@Test
 	public void loginApp()
 	{
+		//This is new commit from Shreelatha
 		logger=report.createTest("Login to Swaglabs");
 		LoginPage loginPage=PageFactory.initElements(driver, LoginPage.class);
 		logger.info("Application started");
